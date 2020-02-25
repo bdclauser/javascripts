@@ -1,5 +1,5 @@
-const selection = ["ROCK", "PAPER", "SCISSORS"];
 function computerPlay() {
+  let selection = ["rock", "paper", "scissors"];
   let randomSelection = selection[Math.floor(Math.random() * selection.length)];
   return selection;
 }
